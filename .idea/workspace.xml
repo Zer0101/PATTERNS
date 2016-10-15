@@ -1,66 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc3d523-afbf-4e86-9429-3141ae9f1d7c" name="Default" comment="Restructurized directory content">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/pattern.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/ClientController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/ErrorPageController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/core/DB.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/core/MVC.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/Builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/DependencyInjection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/FactoryAbstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/FactoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/Multiton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/Prototype.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auxiliary/Singleton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/errorPage/e404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/main/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/product/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/product/main.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Builder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DependencyInjection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FactoryAbstract.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FactoryInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Multiton.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototype.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Singleton.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/controllers/ClientController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/controllers/ErrorPageController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/controllers/MainController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/controllers/ProductController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/core/DB.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/core/MVC.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/app/models/Product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/autoload_classmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/autoload_namespaces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/autoload_psr4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/autoload_real.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/vendor/composer/installed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/views/errorPage/e404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/views/main/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/views/product/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mvc/views/product/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern.rar" afterPath="" />
+    <list default="true" id="3dc3d523-afbf-4e86-9429-3141ae9f1d7c" name="Default" comment=" - Changed type of routing: query string =&gt; url path;&#10; - Changed project structure.&#10;     */&#10;         |&#10;         +--application&#10;         |&#10;         +--system&#10;         |&#10;         +--vendor&#10;         &#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/main/controllers/Home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/main/models/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Router.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ClientController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ErrorPageController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/MainController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ProductController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/core/DB.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/core/MVC.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Product.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/errorPage/e404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/main/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/product/create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/product/main.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
     </list>
     <ignored path="pattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -220,6 +188,64 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -323,12 +349,20 @@
       <updated>1473488008451</updated>
       <workItem from="1475244349726" duration="2064000" />
       <workItem from="1475918049610" duration="7212000" />
-      <workItem from="1476529161122" duration="76000" />
+      <workItem from="1476529161122" duration="492000" />
     </task>
+    <task id="LOCAL-00001" summary="Restructurized directory content">
+      <created>1476529255782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476529255782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9352000" />
+    <option name="totallyTimeSpent" value="9768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -384,6 +418,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restructurized directory content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructurized directory content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

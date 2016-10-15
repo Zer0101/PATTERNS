@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Internal redirection to index.php for nonexistent URLs.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|jpeg|png|gif)$
+RewriteRule . /index.php [L,QSA]

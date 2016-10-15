@@ -1,18 +1,20 @@
 {
-    "name": "sergiu/mvc",
+    "name": "e_zer0101/mvcapp2",
+    "description": "Simple application with MVC pattern",
+    "type": "project",
+    "license": "BSD",
     "authors": [
         {
-            "name": "Test test",
-            "email": "test@exemple.com"
+            "name": "Anton Zencenco",
+            "email": "e_zer0101@yahoo.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "": ""
-        },
-        "classmap": [
-            "app"
-        ]
-    }
+    "autoload" : {
+        "psr-4" : {
+            "MVC\\" : "system/",
+            "MVC\\Modules\\" : "application/modules/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
 }
