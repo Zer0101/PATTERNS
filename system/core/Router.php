@@ -31,7 +31,7 @@ class Router
         $defaultMethod = 'index';
 
         $moduleName = ucfirst($this->uri_segments[0] ?? '');
-        if(empty($moduleName) || !is_dir(APPPATH . 'modules/')){
+        if(empty($moduleName) || !is_dir(APPPATH . 'modules/' . $moduleName)){
             throw new \Exception ("This module doesn't exist");
         }
 
